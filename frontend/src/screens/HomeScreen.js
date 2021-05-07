@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product'
@@ -32,7 +32,7 @@ function HomeScreen({ history }) {
                     <div>
                         <Row>
                             {products.map(product => (
-                                <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
+                                <Col key={product._id} sm={12} md={6} lg={4} xl={3} className='row-eq-height'>
                                     <Product product={product} />
                                 </Col>
                             ))}

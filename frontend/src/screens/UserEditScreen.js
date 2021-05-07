@@ -95,7 +95,7 @@ function UserEditScreen({ match, history }) {
                                 </Form.Check>
                             </Form.Group>
 
-                            <Button type='submit' variant='primary'>
+                            <Button style={{backgroundColor: 'slateblue'}} type='submit' variant='primary'>
                                 Update
                         </Button>
 

@@ -101,6 +101,7 @@ function CartScreen({ match, location, history }) {
                             className='btn-block'
                             disabled={cartItems.length === 0}
                             onClick={checkoutHandler}
+                            style={{backgroundColor: 'slateblue'}}
                         >
                             Proceed To Checkout
                         </Button>

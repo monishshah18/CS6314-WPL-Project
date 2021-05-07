@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import { Form, Button, Row, Col, Table } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
@@ -121,7 +120,7 @@ function ProfileScreen({ history }) {
                         </Form.Control>
                     </Form.Group>
 
-                    <Button type='submit' variant='primary'>
+                    <Button style={{backgroundColor: 'slateblue'}} type='submit' variant='primary'>
                         Update
                 </Button>
 

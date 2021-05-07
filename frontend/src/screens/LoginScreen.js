@@ -59,7 +59,7 @@ function LoginScreen({ location, history }) {
                     </Form.Control>
                 </Form.Group>
 
-                <Button type='submit' variant='primary'>
+                <Button style={{backgroundColor: 'slateblue'}} type='submit' variant='primary'>
                     Sign In
                 </Button>
             </Form>

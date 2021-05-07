@@ -26,7 +26,7 @@ SECRET_KEY = 'dz3px1+3+93x@3q&(14vu#xs^d!1x+rbf8so^hs^)8)7&5-35s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'fashionphile-demo.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -127,7 +127,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'proshop',
+       'NAME': 'fashionphile',
        'USER': 'postgres',
        'PASSWORD': '2020abcd',
        'HOST': 'localhost',

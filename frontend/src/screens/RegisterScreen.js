@@ -41,7 +41,7 @@ function RegisterScreen({ location, history }) {
 
     return (
         <FormContainer>
-            <h1>Sign In</h1>
+            <h1>Sign Up</h1>
             {message && <Message variant='danger'>{message}</Message>}
             {error && <Message variant='danger'>{error}</Message>}
             {loading && <Loader />}
@@ -95,7 +95,7 @@ function RegisterScreen({ location, history }) {
                     </Form.Control>
                 </Form.Group>
 
-                <Button type='submit' variant='primary'>
+                <Button style={{backgroundColor: 'slateblue'}} type='submit' variant='primary'>
                     Register
                 </Button>
 

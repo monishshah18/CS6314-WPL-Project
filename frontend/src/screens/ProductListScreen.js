@@ -61,7 +61,7 @@ function ProductListScreen({ history, match }) {
                 </Col>
 
                 <Col className='text-right'>
-                    <Button className='my-3' onClick={createProductHandler}>
+                    <Button className='my-3' style={{backgroundColor: 'slateblue'}} onClick={createProductHandler}>
                         <i className='fas fa-plus'></i> Create Product
                     </Button>
                 </Col>

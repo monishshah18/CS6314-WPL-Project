@@ -203,10 +203,11 @@ function OrderScreen({ match, history }) {
                                 {userInfo && userInfo.isAdmin && order.isPaid && !order.isDelivered && (
                                     <ListGroup.Item>
                                         <Button
+                                            style={{backgroundColor: 'slateblue'}}
                                             type='button'
                                             className='btn btn-block'
                                             onClick={deliverHandler}
-                                        >
+                    >
                                             Mark As Delivered
                                         </Button>
                                     </ListGroup.Item>

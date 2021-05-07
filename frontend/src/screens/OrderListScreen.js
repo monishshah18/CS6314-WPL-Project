@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Table, Button } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
@@ -72,8 +72,8 @@ function OrderListScreen({ history }) {
                                         </td>
 
                                         <td>
-                                            <LinkContainer to={`/order/${order._id}`}>
-                                                <Button variant='light' className='btn-sm'>
+                                            <LinkContainer style={{backgroundColor: 'slateblue'}} to={`/order/${order._id}`}>
+                                                <Button  variant='light' className='btn-sm'>
                                                     Details
                                                 </Button>
                                             </LinkContainer>
