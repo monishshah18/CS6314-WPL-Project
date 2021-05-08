@@ -1,5 +1,11 @@
 # CS6314-WPL-Project
 
+# PreRequisites
+python 3.7 and above
+Node and npm latest version.
+For postgreSQL, pgAdmin 4 should be installed.
+Database name and credentials should be updated in backend/settings.py
+
 # Features
 * Full featured shopping cart
 * Product reviews and ratings
@@ -28,3 +34,13 @@
 * 1 - cd frontend
 * 2 - npm install
 * 3 - npm start
+
+# Setting up PostgreSQL Database
+* 1 - Install PgAdmin4 and update database credentials in above mentioned files.
+* 2 - python manage.py makemigrations would create models defined in backend/models.py
+* 3 - python manage.py migrate would migrate any new changes to the Database.
+
+# Creating a Superuser(Admin user)
+* 1 - python manage.py createsuperuser
+* 2 - Enter required details such as email, password and username.
+* 3 - Hence, new Admin user is created successfully.
