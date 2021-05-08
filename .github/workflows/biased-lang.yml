@@ -1,8 +1,6 @@
 name: Detecting Biased Language
-on:
-  pull_request:
-    branches:
-      - main
+on: [push]
+
 jobs:
   biased_lang:
     runs-on: ubuntu-latest
