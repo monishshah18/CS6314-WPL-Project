@@ -1,6 +1,7 @@
 # CS6314-WPL-Project
+![DEMO](../no_login.png)
 
-# PreRequisites
+# Pre Requisites
 python 3.7 and above
 Node and npm latest version.
 For postgreSQL, pgAdmin 4 should be installed.
