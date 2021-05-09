@@ -1,5 +1,5 @@
 # CS6314-WPL-Project
-![DEMO](../no_login.png)
+![DEMO](../main/static/images/no_login.png)
 
 # Pre Requisites
 python 3.7 and above
